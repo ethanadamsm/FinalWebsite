@@ -1,0 +1,55 @@
+body {
+	font-family: "Comic Sans MS";
+	color: yellow;
+	text-align: center;
+	background-image: url("images/pokemon-list.png");
+}
+
+form {
+	top: -5px;
+	position: relative;
+	max-width: 300px;
+	text-align: center;
+}
+
+#form{
+	position: relative;
+	background-color: #008080;
+	background-image: url("images/form-bg.jpg");
+	border: 3px solid black;
+	max-width: 300px;
+	height: 500px;
+	margin: auto;
+	top: 20px;
+}
+
+#top {
+	max-width: 300px;
+	height: 300px;
+	margin: auto;
+}
+
+.item {
+	position: relative;
+	top: 45px;
+	margin-bottom: 20px;
+	color: rgb(255,255,255);
+}
+
+#title {
+	position: relative;
+	top: 80px;
+	text-align: center;
+	text-shadow: -3px 0 blue, 0 3px blue, 3px 0 blue, 0 -3px blue;
+}
+
+#version {
+	color: white;
+	position: absolute;
+	bottom: 5px;
+	background-color: blue;
+}
+
+#finalInfo {
+	background-color: rbg(255,0,0);
+}
